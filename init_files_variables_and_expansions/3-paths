@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $MYVAR $PATH | ls -d
+IFS=":" read -r -a directory <<< "$PATH"
