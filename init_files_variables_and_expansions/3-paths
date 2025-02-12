@@ -1,0 +1,2 @@
+#!/bin/bash
+num_directorios=$(echo $PATH | tr ':' '\n' | wc -l)
